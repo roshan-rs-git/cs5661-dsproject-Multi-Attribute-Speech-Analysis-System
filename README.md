@@ -133,4 +133,9 @@ We want to thank the following individuals who have contributed to this project:
 
 ## 📄 License
 
-This project uses the Mozilla Common Voice dataset, which is made available under the [CC-0 license](https://creativecommons.org/publicdomain/zero/1.0/). Our implementation code is available under the MIT License.
+
+This project uses the Mozilla Common Voice dataset. Mozilla website content is available under the [Creative Commons Attribution Share-Alike License v3.0](https://www.mozilla.org/en-US/foundation/licensing/website-content/) or any later version.
+
+Our implementation code is available under the MIT License.
+
+For more information about Mozilla's licensing policies, please visit their [Licensing Policies page](https://www.mozilla.org/en-US/foundation/licensing/).
