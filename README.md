@@ -128,7 +128,7 @@ We want to thank the following individuals who have contributed to this project:
 | Anavi Reddy | Anavireddy404 |
 | Monish Patalay | monishpatalay |
 | Samprat Sakhare | samprat49 |
-| Lynn Lee | lynnlee |
+| Lynn Lee | lynnlee128 |
 | Jooeun Jeon | roeldartz |
 
 ## 📄 License
