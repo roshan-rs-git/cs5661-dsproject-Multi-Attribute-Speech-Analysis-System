@@ -114,9 +114,8 @@ For detailed analysis and visualizations, refer to the notebooks in the `noteboo
 
 ## 📚 References
 
-- Mozilla Common Voice Dataset [Link]
-- MFCC Feature Extraction [Link]
-- Deep Learning for Speech Processing [Link]
+- Mozilla Common Voice Dataset [Link](https://www.kaggle.com/datasets/mozillaorg/common-voice/data)
+- MFCC Feature Extraction [Link](https://pytorch.org/audio/main/generated/torchaudio.transforms.MFCC.html)
 
 ## 🤝 Contributors
 
