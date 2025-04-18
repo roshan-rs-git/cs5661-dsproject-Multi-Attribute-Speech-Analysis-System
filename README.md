@@ -125,12 +125,12 @@ We want to thank the following individuals who have contributed to this project:
 | Name | GitHub Username |
 |------|-----------------|
 | Roshan Roy Suja | roshan-rs-git |
-| Simran Kapoor | simran-k21 |
-| Anavi Reddy | anavi-r |
-| Monish Patalay | monishpat |
-| Samprat Sakhare | samprats |
-| Lynn Lee | lynnlee22 |
-| Jooeun Jeon | joojeon |
+| Simran Kapoor | simrankapoor456 |
+| Anavi Reddy | Anavireddy404 |
+| Monish Patalay | monishpatalay |
+| Samprat Sakhare | samprat49 |
+| Lynn Lee | lynnlee |
+| Jooeun Jeon | roeldartz |
 
 ## 📄 License
 
