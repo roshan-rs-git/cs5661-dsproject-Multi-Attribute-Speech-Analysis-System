@@ -36,7 +36,7 @@ Category | Data
 --- | ---
 Size of Dataset | 13 GB
 Number of Instances | 380,368 rows
-Number of Fields | 7 base + extracted features
+Number of Fields | 8 base + extracted features
 Labeled Classes | Age, gender, accent categories
 Number of Labels | Variable per attribute
 
@@ -345,7 +345,7 @@ No names, email addresses, or raw recordings outside CC0 license are present
 - Some languages have small sample sizes
 
 ### Version and Maintenance
-#### First Version
+#### First and Last Version
 **Release date:** Approx. 11/2017 (based on latest Kaggle upload)
 **Link to dataset:** Mozilla Common Voice (Kaggle): https://www.kaggle.com/datasets/mozillaorg/common-voice
 **Status:** Static (Not actively maintained on Kaggle)
@@ -353,14 +353,6 @@ No names, email addresses, or raw recordings outside CC0 license are present
 **Number of Instances:** ~300,000+ clips across full dataset
 **Note(s) and Caveat(s):** Each Kaggle version is a fixed snapshot and may not reflect latest Mozilla Common Voice updates.
 **Cadence:** Static
-
-#### Last and Next Update(s)
-**Date of last update:** 15/11/2019
-**Total data points affected:** ~300,000+
-**Data points updated:** N/A
-**Data points added:** Full new version upload
-**Data points removed:** None
-**Date of next update:** Unknown
 
 ## 7. Human and Sensitive Attributes
 #### Sensitive Human Attribute(s)
