@@ -1,4 +1,4 @@
-# Multi-Attribute-Speech-Analysis-System
+# Multi-Attribute Speech Analysis System
 
 Using a multi-task deep learning architecture, we aim to develop a comprehensive speech analysis system that simultaneously extracts demographic information, accent features, and text content from audio input, enabling more personalized and efficient voice-based interactions across industries.
 
@@ -112,27 +112,26 @@ Brief summary of model performance metrics for each attribute:
 
 For detailed analysis and visualizations, refer to the notebooks in the `notebooks/` directory.
 
+## 👥 Team Members & Roles
+
+| Name | GitHub Username | Role |
+|------|-----------------|------|
+| Simran Kapoor | simrankapoor456 | Project Lead / Coordinator |
+| Samprat Sakhare | samprat49 | Data Acquisition & Cleaning Lead |
+| Monish Patalay | monishpatalay | Audio Feature Engineering Specialist |
+| Anavi Reddy | Anavireddy404 | Model Architect (Age & Gender) |
+| Roshan Roy Suja | roshan-rs-git | Model Architect (Accent & Text) |
+| Lynn Lee | lynnlee128 | Evaluation & Metrics Lead |
+| Jooeun Jeon | roeldartz | Documentation & Reporting Lead |
+
 ## 📚 References
 
-- Mozilla Common Voice Dataset [Link](https://www.kaggle.com/datasets/mozillaorg/common-voice/data)
-- MFCC Feature Extraction [Link](https://pytorch.org/audio/main/generated/torchaudio.transforms.MFCC.html)
-
-## 🤝 Contributors
-
-We want to thank the following individuals who have contributed to this project:
-
-| Name | GitHub Username |
-|------|-----------------|
-| Roshan Roy Suja | roshan-rs-git |
-| Simran Kapoor | simrankapoor456 |
-| Anavi Reddy | Anavireddy404 |
-| Monish Patalay | monishpatalay |
-| Samprat Sakhare | samprat49 |
-| Lynn Lee | lynnlee128 |
-| Jooeun Jeon | roeldartz |
+- [Mozilla Common Voice Dataset](https://www.kaggle.com/datasets/mozillaorg/common-voice/data)
+- [MFCC Feature Extraction](https://pytorch.org/audio/main/generated/torchaudio.transforms.MFCC.html)
+- [Deep Learning for Speech Processing](https://www.deeplearningbook.org/)
+- [Common Voice Corpus](https://commonvoice.mozilla.org/en/datasets)
 
 ## 📄 License
-
 
 This project uses the Mozilla Common Voice dataset. Mozilla website content is available under the [Creative Commons Attribution Share-Alike License v3.0](https://www.mozilla.org/en-US/foundation/licensing/website-content/) or any later version.
 
