@@ -114,16 +114,15 @@ For detailed analysis and visualizations, refer to the notebooks in the `noteboo
 
 ## 👥 Team Members & Roles
 
-| Name | GitHub Username | Role |
-|------|-----------------|------|
-| Simran Kapoor | simrankapoor456 | Project Lead / Coordinator |
-| Samprat Sakhare | samprat49 | Data Acquisition & Cleaning Lead |
-| Monish Patalay | monishpatalay | Audio Feature Engineering Specialist |
-| Anavi Reddy | Anavireddy404 | Model Architect (Age & Gender) |
-| Roshan Roy Suja | roshan-rs-git | Model Architect (Accent & Text) |
-| Lynn Lee | lynnlee128 | Evaluation & Metrics Lead |
-| Jooeun Jeon | roeldartz | Documentation & Reporting Lead |
-
+| Name | GitHub Username | Role & Responsibilities |
+|------|-----------------|-------------------------|
+| Simran Kapoor | simrankapoor456 | **Project Lead / Coordinator**: Oversees the entire project workflow, coordinates meetings, sets deadlines, and ensures all tasks are progressing on time. Manages GitHub updates and integrates everyone's contributions. |
+| Samprat Sakhare | samprat49 | **Data Acquisition & Cleaning Lead**: Responsible for loading the Common Voice dataset, handling missing values, filtering relevant rows (e.g., `upvotes >= downvotes` for text), and organizing the data based on prediction tasks. Ensures all datasets are clean and ready for feature extraction. |
+| Monish Patalay | monishpatalay | **Audio Feature Engineering Specialist**: Extracts MFCCs, spectral, and RMS features using `torchaudio`. Runs experiments to determine the most effective number of MFCCs (e.g., 13, 15, … 40) for each attribute. Maintains consistency across audio preprocessing scripts. |
+| Anavi Reddy | Anavireddy404 | **Model Architect (Age & Gender)**: Designs, trains, and evaluates deep learning models for predicting **age** and **gender**. Tunes model architecture and hyperparameters specific to these classification tasks. |
+| Roshan Roy Suja | roshan-rs-git | **Model Architect (Accent & Text)**: Handles model building and training for **accent classification** and **speech-to-text** prediction. Works closely with the audio specialist to match feature configurations. Also helps optimize performance for diverse accents. |
+| Lynn Lee | lynnlee128 | **Evaluation & Metrics Lead**: Defines evaluation metrics (accuracy, precision, recall, loss curves, etc.), visualizes model performance, and compares MFCC configurations. Writes up analysis on which models perform best for each task. |
+| Jooeun Jeon | roeldartz | **Documentation & Reporting Lead**: Manages creation of the `data_card.md`, project `README.md`, and final report. Ensures proper formatting, summarizes findings, and highlights project goals and results clearly. Helps prepare submission materials. |
 ## 📚 References
 
 - [Mozilla Common Voice Dataset](https://www.kaggle.com/datasets/mozillaorg/common-voice/data)
