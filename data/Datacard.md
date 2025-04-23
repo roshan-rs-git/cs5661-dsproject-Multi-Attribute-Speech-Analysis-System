@@ -358,7 +358,7 @@ No names, email addresses, or raw recordings outside CC0 license are present
 #### Sensitive Human Attribute(s)
 - Gender
 - Age
-- Geography
+- Accent
 - Language
 
 #### Intentionality
