@@ -16,7 +16,7 @@ The system leverages the Mozilla Common Voice dataset and extracts various audio
 
 - **Multi-attribute analysis**: Predict age, gender, accent, and transcribed text from a single audio input
 - **Customized preprocessing**: Tailored preprocessing pipelines for each attribute prediction task
-- **Feature engineering**: Extraction of 13 MFCC coefficients (mean and std), spectral features, and energy metrics
+- **Feature engineering**: Extraction of 40 MFCC coefficients (mean and std), spectral features, and energy metrics
 - **Deep learning models**: Specialized neural network architectures for each prediction task
 - **Comprehensive evaluation**: Task-specific metrics to evaluate model performance
 
