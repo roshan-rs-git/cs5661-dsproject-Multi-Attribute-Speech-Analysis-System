@@ -23,13 +23,15 @@ The system leverages the Mozilla Common Voice dataset and extracts various audio
 ## 📂 Repository Structure
 
 * `data/`: Raw and processed datasets
-  * `raw/`: Original CSV files from Common Voice dataset
-  * `processed/`: Preprocessed data ready for model training
+  * `raw/`: Original CSV files from Common Voice dataset (FinalDataset_sample.csv)
+  * `processed/`: Preprocessed data ready for model training (accentdf.csv, agedf.csv, genderdf.csv, textdf.csv)
+  * `Datacard.md`: Dataset documentation (Google Data Card)
 * `notebooks/`: Jupyter Notebooks for data validation and analysis
-  * `preprocessing/`: Notebooks for data cleaning and feature extraction
-  * `models/`: Notebooks for model development and evaluation
-* `src/`: Preprocessing or helper scripts
-* `data_card.md`: Dataset documentation (Google Data Card)
+  * `Data_visualization/`: Notebooks for data visualization (Data_Visualizations.ipynb)
+  * `feature_extraction/`: Notebooks for feature extraction (audio_feature_extraction_final.ipynb)
+  * `final_model_with_prediction/`: Notebooks for model implementation (Final_Model_with_Prediction.ipynb)
+  * `preprocessing/`: Notebooks for data preprocessing (Final_feature_prep.ipynb)
+* `src/`: README.txt explaining about the dataset
 * `requirements.txt`: List of required Python packages
 * `README.md`: This file
 
@@ -101,16 +103,16 @@ For each attribute prediction task, we perform specialized preprocessing:
 
 ## 📈 Results
 
-Brief summary of model performance metrics for each attribute:
+Summary of model performance metrics for each attribute:
 
-| Attribute | Metric | Value |
-|-----------|--------|-------|
-| Age       | MAE    | TBD   |
-| Gender    | F1     | TBD   |
-| Accent    | F1     | TBD   |
-| Text      | WER    | TBD   |
+| Attribute | Accuracy | F1 Score | WER   |
+|-----------|----------|----------|-------|
+| Age       | 92%      | 92.2%    | -     |
+| Gender    | 98%      | 98%      | -     |
+| Accent    | 92%      | 92%      | -     |
+| Text      | -        | -        | 8.06% |
 
-For detailed analysis and visualizations, refer to the notebooks in the `notebooks/` directory.
+For detailed analysis and visualizations, refer to the notebooks in the `notebooks/` directory, particularly the `Final_Model_with_Prediction.ipynb` file in the `final_model_with_prediction` folder.
 
 ## 👥 Team Members & Roles
 
@@ -122,7 +124,7 @@ For detailed analysis and visualizations, refer to the notebooks in the `noteboo
 | Anavi Reddy | Anavireddy404 | **Model Architect (Age & Gender)**: Develops and trains neural networks for age and gender prediction tasks. |
 | Roshan Roy Suja | roshan-rs-git | **Model Architect (Accent & Text)**: Builds models for accent classification and speech-to-text transcription. |
 | Lynn Lee | lynnlee128 | **Evaluation & Metrics Lead**: Designs evaluation frameworks and analyzes model performance across attributes. |
-| Jooeun Jeon | roeldartz | **Documentation & Reporting Lead**: Creates project documentation and prepares final deliverables. | `README.md`, and final report. Ensures proper formatting, summarizes findings, and highlights project goals and results clearly. Helps prepare submission materials. |
+| Jooeun Jeon | roeldartz | **Documentation & Reporting Lead**: Creates project documentation and prepares final deliverables. |
 
 ## 📚 References
 
